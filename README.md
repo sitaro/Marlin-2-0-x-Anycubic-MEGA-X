@@ -1,4 +1,4 @@
-# Knutwurst's i3 MEGA S Firmware (based on Marlin 2.0.5.4)
+# Knutwurst's i3 MEGA S Firmware (based on Marlin 2.0.6)
 
 <span style="color: red;">(BITTE GENAU DURCHLESEN! / PLEASE READ CAREFULLY!)</span>
 
