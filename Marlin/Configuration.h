@@ -77,7 +77,7 @@
  */
 //#define KNUTWURST_MEGA
 //#define KNUTWURST_MEGA_S
-//#define KNUTWURST_MEGA_X
+#define KNUTWURST_MEGA_X
 //#define KNUTWURST_MEGA_P
 
 /*
@@ -112,7 +112,7 @@
  * 
  * PLEASE READ THE WARNING ABOVE!
  */
-//#define KNUTWURST_TMC
+#define KNUTWURST_TMC
 
 /*
  * This enables the BLTouch Support and also 
@@ -124,7 +124,7 @@
  * PLEASE READ THE WARNING ABOVE!
  * 
  */
-//#define KNUTWURST_BLTOUCH // see <https://github.com/DerDominik/Marlin-AnycubicI3Mega-BLTouch/wiki/Aufbauplan_BLTouch>
+#define KNUTWURST_BLTOUCH // see <https://github.com/DerDominik/Marlin-AnycubicI3Mega-BLTouch/wiki/Aufbauplan_BLTouch>
 
 /*
  * This feature is for debugging purpose only.
@@ -135,7 +135,7 @@
  * PLEASE READ THE WARNING ABOVE!
  * 
  */
-//#define KNUTWURST_DEBUG
+#define KNUTWURST_DEBUG
 
 
 /*******************************************************************************************
@@ -273,7 +273,7 @@
  * on the upper left of the PCB silkscreen.
  */
 #ifndef MOTHERBOARD
-  //#define MOTHERBOARD BOARD_TRIGORILLA_14  // Is normally set by PlatformIO
+  #define MOTHERBOARD BOARD_TRIGORILLA_14  // Is normally set by PlatformIO
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
